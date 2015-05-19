@@ -4,7 +4,7 @@
 mkdir ~/knitro-mock-library
 cd ~/knitro-mock-library
 wget https://github.com/jtilly/knitro-mock-library/raw/master/skeleton.zip
-unzip ~/skeleton
+unzip skeleton.zip
 cd lib
 # compile knitro-mock-library.cpp
 gcc -fPIC -c knitro-mock-library.cpp
